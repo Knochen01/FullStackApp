@@ -1,0 +1,46 @@
+.post {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.imageWrapper {
+  flex: 1;
+  height: 350px;
+  position: relative;
+}
+.details {
+  display: flex;
+}
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 30px;
+}
+
+.date {
+  color: gray;
+}
+.category {
+  color: crimson;
+  font-weight: 500;
+}
+
+.image {
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.description {
+  color: var(--softTextColor);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.readMore {
+  border-bottom: 1px solid crimson;
+  max-width: fit-content;
+  padding: 2px 0;
+}
