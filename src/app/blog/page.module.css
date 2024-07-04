@@ -1,0 +1,10 @@
+.content {
+  display: flex;
+  gap: 50px;
+}
+.title {
+  text-align: center;
+  background-color: aquamarine;
+  color: white;
+  padding: 5px 10px;
+}
