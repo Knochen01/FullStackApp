@@ -8,7 +8,7 @@ export default function AuthLinks() {
   const [open, setOpen] = useState(false);
 
   // Temporary
-  const status = "false";
+  const status = "true";
   return (
     <>
       {status === "false" ? (
