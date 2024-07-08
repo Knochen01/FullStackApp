@@ -33,7 +33,9 @@
   height: 2px;
   background-color: var(--textColor);
 }
-
+.links {
+  cursor: pointer;
+}
 @media screen and (max-width: 640px) {
   .burger {
     display: flex;
