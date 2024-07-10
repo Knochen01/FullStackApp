@@ -11,3 +11,8 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}

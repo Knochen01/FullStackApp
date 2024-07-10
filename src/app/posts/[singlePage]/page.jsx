@@ -1,8 +1,8 @@
-import Menu from "@/components/Menu/Menu";
+import Menu from "../../../components/Menu/Menu";
 import styles from "./page.module.css";
 import Image from "next/image";
-import User from "@/components/User/User";
-import Comments from "@/components/Comments/Comments";
+import User from "../../../components/User/User";
+import Comments from "../../../components/Comments/Comments";
 
 export default function SinglePage() {
   return (

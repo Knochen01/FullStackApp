@@ -1,5 +1,8 @@
 
 
+
+
+
 datasource db {
   provider = "mongodb"
   url      = "mongodb+srv://Knochen:MongoMilk@cluster0.mskoggh.mongodb.net/blog?retryWrites=true&w=majority&appName=Cluster0"
@@ -88,4 +91,3 @@ model Comment {
   postSlug  String
   post      Post     @relation(fields: [postSlug], references: [slug])
 }
-
