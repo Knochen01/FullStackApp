@@ -75,7 +75,7 @@ model Post {
   desc      String
   img       String?
   views     Int       @default(0)
-  catSlug   String
+  catSlug   String    @unique
   cat       Category  @relation(fields: [catSlug], references: [slug])
   userEmail String
   user      User      @relation(fields: [userEmail], references: [email])
